@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="UWP_project.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+  <Grid>
+
+
+    <Image x:ConnectionId='2' x:Name ="CardImg2" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg"  HorizontalAlignment="Left" Margin="540,713,0,0" VerticalAlignment="Top" Height="259" Width="162" />
+    <Image x:ConnectionId='3' x:Name="CardImg1" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="259" Width="162" Margin="340,713,0,0"/>
+    <Image x:ConnectionId='4' x:Name="CardImg3" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="259" Width="162" Margin="717,713,0,0"/>
+    <Image x:ConnectionId='5' x:Name="CardImg4" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="259" Width="162" Margin="893,713,0,0"/>
+    <Image x:ConnectionId='6' x:Name="CardImg5" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="259" Width="162" Margin="1070,713,0,0"/>
+
+    <Image x:ConnectionId='7' x:Name="EnemyImg1" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="399" Width="207" Margin="1209,141,0,0"/>
+    <Image x:ConnectionId='8' x:Name="EnemyImg2" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="399" Width="207" Margin="1430,141,0,0"/>
+    <Image x:ConnectionId='9' x:Name="EnemyImg3" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="399" Width="207" Margin="1652,141,0,0"/>
+
+    <Image x:ConnectionId='10' x:Name="PlayerImg" Source="https://eda.ru/img/eda/c596x440i/editor.eda.ru/uploads/1/73/173bb4f5966b46f99cdcb398f676e683.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Height="399" Width="207" Margin="134,141,0,0"/>
+
+    <TextBlock x:ConnectionId='11' x:Name="ManaIndText" HorizontalAlignment="Left" Margin="56,45,0,0" Text="MANA: 5/5" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="227" FontSize="36" FontFamily="Segoe UI" FontWeight="Bold"/>
+    <Button x:ConnectionId='12' x:Name="CardButton2" Content=" " Margin="540,713,0,0" VerticalAlignment="Top" Height="259" Width="162" Opacity="0.5"/>
+    <Button x:ConnectionId='13' x:Name="CardButton3" Content=" " Margin="717,713,0,0" VerticalAlignment="Top" Height="259" Width="162" Opacity="0.5"/>
+    <Button x:ConnectionId='14' x:Name="CardButton1" Content=" " Margin="340,713,0,0" VerticalAlignment="Top" Height="259" Width="162"                     Opacity="0.5" />
+    <Button x:ConnectionId='15' x:Name="CardButton4" Content=" " Margin="893,713,0,0" VerticalAlignment="Top" Height="259" Width="162" Opacity="0.5"/>
+    <Button x:ConnectionId='16' x:Name="CardButton5" Content=" " Margin="1070,713,0,0" VerticalAlignment="Top" Height="259" Width="162" Opacity="0.5"/>
+    <Button x:ConnectionId='17' x:Name="EnemyButton1"  Content=" " Margin="1209,141,0,0" VerticalAlignment="Top" Height="399" Width="207" Opacity="0.5"/>
+    <Button x:ConnectionId='18' x:Name="EnemyButton2" Content=" " Margin="1430,141,0,0" VerticalAlignment="Top" Height="399" Width="208" Opacity="0.5"/>
+    <Button x:ConnectionId='19' x:Name="EnemyButton3" Content=" " Margin="1652,141,0,0" VerticalAlignment="Top" Height="399" Width="207" FontFamily="Segoe UI" Opacity="0.5"/>
+    
+    <Button x:ConnectionId='20' x:Name="Enemy1_Copy"  Content=" " Margin="134,141,0,0" VerticalAlignment="Top" Height="399" Width="207" Opacity="0.5"/>
+
+  </Grid>
+</Page>
+
